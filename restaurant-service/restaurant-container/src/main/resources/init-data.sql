@@ -1,14 +1,14 @@
 INSERT INTO restaurant.restaurants(id, name, active)
 	VALUES ('d215b5f8-0249-4dc5-89a3-51fd148cfb45', 'restaurant_1', TRUE);
 INSERT INTO restaurant.restaurants(id, name, active)
-	VALUES ('d215b5f8-0249-4dc5-89a3-51fd148cfb46', 'restaurant_2', FALSE);
+	VALUES ('d215b5f8-0249-4dc5-89a3-51fd148cfb46', 'restaurant_2', TRUE);
 
 INSERT INTO restaurant.products(id, name, price, available)
-	VALUES ('d215b5f8-0249-4dc5-89a3-51fd148cfb47', 'product_1', 25.00, FALSE);
+	VALUES ('d215b5f8-0249-4dc5-89a3-51fd148cfb47', 'product_1', 25.00, TRUE);
 INSERT INTO restaurant.products(id, name, price, available)
 	VALUES ('d215b5f8-0249-4dc5-89a3-51fd148cfb48', 'product_2', 50.00, TRUE);
 INSERT INTO restaurant.products(id, name, price, available)
-	VALUES ('d215b5f8-0249-4dc5-89a3-51fd148cfb49', 'product_3', 20.00, FALSE);
+	VALUES ('d215b5f8-0249-4dc5-89a3-51fd148cfb49', 'product_3', 20.00, TRUE);
 INSERT INTO restaurant.products(id, name, price, available)
 	VALUES ('d215b5f8-0249-4dc5-89a3-51fd148cfb50', 'product_4', 40.00, TRUE);
 

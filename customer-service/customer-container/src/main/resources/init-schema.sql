@@ -13,6 +13,9 @@ CREATE TABLE customer.customers
     CONSTRAINT customers_pkey PRIMARY KEY (id)
 );
 
+INSERT INTO customer.customers (id, username, first_name, last_name) VALUES ('d215b5f8-8249-4dc5-89a3-51fd148cfb01', 'emre.uzun', 'Emre', 'Uzun');
+
+
 DROP MATERIALIZED VIEW IF EXISTS customer.order_customer_m_view;
 
 CREATE MATERIALIZED VIEW customer.order_customer_m_view

@@ -126,3 +126,7 @@ CREATE TABLE "order".customers
     last_name character varying COLLATE pg_catalog."default" NOT NULL,
     CONSTRAINT customers_pkey PRIMARY KEY (id)
 );
+
+
+INSERT INTO "order".customers (id, username, first_name, last_name) VALUES ('d215b5f8-8249-4dc5-89a3-51fd148cfb01', 'emre.uzun', 'Emre', 'Uzun');
+
